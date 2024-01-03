@@ -1,0 +1,52 @@
+// I have a single line of code to show that this is a thing
+// This style is important to know
+// So we practice!
+
+/* However sometimes we need multiple lines of code
+that looks like this! */
+
+// Assign two variables
+var favColor = 'red';
+var favSeason = 'Spring';
+//reassign a variable to equal a different value
+favColor = 'blue';
+// Now check and make sure that your favorite color was in fact changed from red to blue
+console.log(favColor);
+// then check to ensure that your favSeason has remained the same
+console.log(favSeason);
+
+// Declare firstName and lastName
+var firstName;
+var lastName;
+//Assign them to string values of your first and last name
+firstName = 'Lacey';
+lastName = 'Green';
+// Console log both variables
+console.log(firstName);
+console.log(lastName);
+//Continue declaring a variable named fullName
+var fullName;
+//Assign fullName to the values of firstName and lastName using + operator, then console log
+fullName = firstName + ' ' + lastName;
+console.log(fullName);
+
+// initialize, declare and assign, a variable named number
+var number = 15;
+
+// Declare another variable named myNumberPlusFive and assign it the value of number plus 5
+var myNumberPlusFive;
+myNumberPlusFive = number + 5;
+// myNumberPlusFived should output 20 when console logged
+console.log(myNumberPlusFive);
+
+//initialize myBool to be true
+var myBool = true;
+// reassign myBool to false
+myBool = 1 === '1';
+console.log(myBool); // false
+
+
+//Declare a variable name isPelicansFan and assign it to false
+var isPelicansFan = 'true' === true;
+
+// Forward slash /helpdesk, select category, select assignment, past error
