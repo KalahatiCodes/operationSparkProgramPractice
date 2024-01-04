@@ -1,0 +1,31 @@
+var myCar = {
+  make: 'Dodge Ram',
+  color: 'GOld',
+  year: 2004,
+  isAutomatic: true
+};
+console.log(myCar);
+
+// Create an object that models some data about your age, colors, pets, and dad's favorite catch phrases
+var laceyL = {
+  isInTwenties: true,
+  hatesBlue: false,
+  numberOfPets: 1,
+  favoriteOfDadsQuotes: 'Be black, be happy, die of natural causes'
+};
+console.log(laceyL);
+
+// Create a myHero Object including data about their name, their powers (as an array) and year they were born
+var myHero = {
+  name: 'Miles Morales',
+  powers: ['webbing', 'spider senses'],
+  yearCreated: 2001,
+};
+console.log(myHero);
+console.log(myHero.name);
+console.log(myHero['powers']);
+
+/* Using bracket notation console log myHero's name and the year they were created in a full sentence */
+console.log(myHero['name'] + ' was created in ' + myHero['yearCreated']);
+/* Using dot notation console log the number of powers your hero has in a full sentence */
+console.log('They have ' + myHero.powers.length + ' super powers');
