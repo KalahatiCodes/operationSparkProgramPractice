@@ -98,6 +98,6 @@ console.log(fToC(50));
 // Create an object myObj then write a conditional statement that uses the! operator to check if myObj contains bool, if it does not add key with the value of true
 var myObj = {}
 
-if (!myObj.bool.true){
+if (!myObj.bool){
   myObj.bool = true;
 }
