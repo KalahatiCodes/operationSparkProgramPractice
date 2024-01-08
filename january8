@@ -1,0 +1,95 @@
+// if statement example
+// declare a variable season and assign it a value
+var season = 'Winter';
+
+//if season strictly equals Spring
+if (season === 'Spring') {
+  console.log('take your allergy medicine');
+}
+// initialize two variables x and y
+var x = 9;
+var y = 65;
+
+// if y is divisible by x
+if (y % x === 0) {
+  // print yes! to the console
+  console.log('yes!');
+}
+
+
+// if y is NOT divisible by x
+if (y % x !== 0) {
+  // print yes! to the console
+  console.log('yes! not divisible');
+}
+
+/*
+65 / 9 = 7 with a remainder of 2
+therefore 
+*/
+
+
+/* Excercise 1
+Create three if statements. You can have them console log anything you want. Don't forget pseudocode. */
+// initialize two players in a chess game
+var leaderOne = 'Leedie';
+var leaderTwo = 'Lana';
+// if leader one is being called to the board and leaderOne equals Leedie then it is Leedies turn
+if (leaderOne === 'Leedie'){
+  console.log('Leedie is in charge of calling the first move');
+}
+// if leader one is not being called to the board and leaderOne equals Leedie then it is Leedies turn
+if (leaderOne !== 'Leedie'){
+  console.log('Lana will determine the next move');
+}
+// try one using a back tik to write an apostrophe
+if (leaderTwo === 'Lana'){
+  console.log('It is Lana\'s turn to determine the move')
+}
+
+
+
+
+// initialize userAge variable
+var userAge = 17;
+// if userAge is less than 17
+if (userAge < 17){
+//print too young to vote
+  console.log('Too young to vote.');
+//else if userAge is greater than or equal to 18
+} else if (userAge >= 18){
+// print Go vote! 
+  console.log('Go vote!');
+} else if (userAge === 17){
+// if the user is 17 print Next election year go vote!
+  console.log('Next year go vote!');
+}
+
+// Function
+function getGreetingFor(nameFirst, nameLast) {
+    return 'Hello, ' + nameFirst + ' ' + nameLast + '!';
+}
+
+var greetingForMaddy = getGreetingFor('Maddy', 'Catsby');
+var greetingForSelina = getGreetingFor('Selina', 'LeChat');
+
+console.log(greetingForMaddy);
+console.log(greetingForSelina);
+
+
+
+function cToF(celsius) 
+{
+  var cTemp = celsius;
+  var cToFahr = cTemp * 9 / 5 + 32;
+  return cToFahr;
+}
+
+function fToC(fahrenheit) 
+{
+  var fTemp = fahrenheit;
+  var fToCel = (fTemp - 32) * 5 / 9;
+} 
+
+console.log(cToF(10));
+console.log(fToC(50));
