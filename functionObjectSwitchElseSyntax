@@ -1,0 +1,80 @@
+//Function Syntax
+function functionName(parameter1, parameter2, parameter3) {
+  console.log(parameter1 + parameter2)
+}
+functionName(parameter1, parameter2, parameter3);
+
+
+
+
+
+
+
+
+
+// Object Syntax
+var myObject = {
+  name: 'Lee',
+  age: 'mystery'
+  height: 180
+}
+myObject.faveColor = 'blue'
+var newFavNumber = 13
+myObject.favNumber[newFavNumber]
+
+
+
+
+
+
+
+
+
+// Switch Conditional Syntax
+switch (expression) {
+case value1:
+// code block for value1
+break;
+case value2:
+// code block for value2
+break;
+//
+case valueN:
+// code block for valueN
+break;
+default:
+// code block for default case
+}
+
+
+
+
+
+
+
+
+
+// Else if Conditional Syntax
+// With only an if clause
+if (condition) {
+// block of code to be executed if the condition is true
+}
+
+// With an else clause
+if (condition) {
+// block of code to be executed if the condition is true
+} else {
+// block of code to be executed if the condition is false
+}
+
+// With one or more else if clauses
+if (condition1) {
+// block of code to be executed if condition1 is true
+} else if (condition2) {
+// block of code to be executed if condition1 is false and condition2 is true
+} else if (condition3) {
+// block of code to be executed if condition1 and condition2 are false and condition3 is true
+} //
+else {
+// block of code to be executed if all conditions are false
+}
