@@ -1,0 +1,16 @@
+// make a multiple ternary operator conditional
+function findGrLeEq(a,b){
+  if (a === b){
+    return 'a and b are equal';
+  } else if (a > b){
+    return 'a is greater than b';
+  } else {
+    return 'a is less than b';
+  }
+}
+
+function findGrLeEq(a,b){
+  return (a === b ) ? 'a and b are equal'
+  : (a > b) ? 'a is greater than b'
+  : 'a is less than b'
+}
