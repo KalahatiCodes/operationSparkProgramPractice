@@ -1,0 +1,148 @@
+/*
+// declare a variable season and assign it a value
+var season = 'Winter';
+
+//if season strictly equals Spring
+if (season === 'Spring' || season === 'spring' ) {
+  console.log('Take your allergy medicine!');
+//if season strictly equals Fall console.log('Put on a scarf!')
+} else if (season === 'Fall' || season === 'fall' || season === 'Autumn' || season === 'autumn'){
+  console.log('Put on a scarf!')
+//if season strictly equals Summer console.log('Break out those swimsuits!');
+} else if (season === 'Summer' || season === 'summer'){
+  console.log('Break out those swimsuits!');
+// if it is none of the other seasons onsole.log('Go find your winter coat!')
+} else {
+  console.log('Go find your winter coat!')
+}
+
+
+const arr = [
+  [1, 2], [3, 4], [5, 6]
+];
+
+for (let i = 0; i < arr.length; i++) {
+  for (let j = 0; j < arr[i].length; j++) {
+    console.log(arr[i][j]);
+  }
+}
+
+
+function multiplyAll(arr) {
+  let product = 1;
+  // Only change code below this line
+for (let i = 0; i < arr.length; i++){
+  for (let j = 0; j < arr[i].length; j++){
+    console.log(arr[i][j]);
+    product *= arr[i][j];
+  }
+}
+  // Only change code above this line
+  return product;
+}
+
+console.log(multiplyAll([[1, 2, 4, 5, 6], [3, 4], [5, 6, 7]]));
+
+function multiply(arr, n) {
+    if (n <= 0) {
+      return 1;
+    } else {
+      return multiply(arr, n - 1) * arr[n - 1];
+    }
+  }
+  */
+
+//Create a function giving it the name of add and two parameters (num1,num2)
+//Inside the function body return the sum of num1 and num2
+// I: Two number values (num1, num2)
+// O: A number value ( the sum of the two outputs)
+function addIt(num1, num2) {
+  //Use the addition operator to return the sum of num1 and num2
+  return num1 + num2;
+}
+// call your addIt with two numbers as the parameter and console log it
+console.log(addIt(3,4));
+
+// Declare a function named subtract that takes 2 parameters and returns the difference of the two numbers.
+// Call your function.
+// Input(s): num1, num2 
+// Output: the difference between num1 and num 2
+function subtract (num1, num2){
+  // return num1 and num2
+  return num1 - num2;
+}
+// call the function and then console log results
+subtract(10, 4);
+console.log(subtract(10, 4));
+
+// Example 3: Declare a function named divide4 that takes an argument (create one parameter) and returns the quotient of the number divided by 4! Don't forget to pseudocode!
+// Call the function with the argument to divide by 4
+// I: one number value
+// O: quotient of the input and 4
+function divide4 (num){
+  // return num divided by 4
+  return num / 4;
+}
+divide4(4);
+console.log(divide4(4));
+
+
+/* 
+
+Example #4: Declare a function named hasCorrectPassword. This function should
+accept two parameters - (password, userInput). Inside the function body, 
+create an if/else statement. If the userInput strictly equals password 
+return true; else, return false. Call your function.
+
+// I: 2 strings
+// 0: boolean value
+
+function hasCorrectPassword(password, userInput){
+  if (userInput === password){
+    return true
+  } else {
+    return false
+  }
+}
+// call hasCorrectPassword function then console log
+hasCorrectPassword('123go', '123Go');
+console.log(hasCorrectPassword('123go', '123Go'));
+
+*/
+
+//Create an object called myObj containing your name
+var myObj = {
+  name: 'Lee Green'
+}
+// Create a function called addKeys that adds an address property and profession property with respective values
+function addKeys(obj){
+  obj['address'] = '2323 Tulane ave';
+  obj['profession'] = 'software engineer';
+  //return obj to send information back to the obj argument
+  return obj;
+}
+// call your function addKeys() with myObj as argument and console log
+addKeys(myObj);
+console.log(myObj);
+
+
+
+
+/*Example 6
+
+Declare a function named arrayToObject. This function takes an array as the parameter.
+  a) Return an object with the following keys {name} and {sex} and the object's values correspond to the array's values.
+  For example, if you are given the following array: 
+  var newPuppy = ["Chance", "male"];
+  The output should be:
+  { 
+    name: "Chance",
+    sex: "male"
+  }
+  Call your function with newPuppy as the argument.
+*/
+var newPuppy = ["Chance", "male"];
+function arrayToObject (arr){
+  return obj                                                                                                                                                                                                                         = {name: arr[0], sex: arr[1]};
+}
+console.log(arrayToObject(newPuppy));
