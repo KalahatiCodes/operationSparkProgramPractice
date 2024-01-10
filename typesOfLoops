@@ -1,0 +1,43 @@
+// while, for while, do while
+
+
+// WHILE LOOP
+// It runs while a specified condition is true and stops once that condition is no longer true
+
+const ourArray = [];
+let i = 0;
+while (i < 5) {
+  ourArray.push(i);
+  i++;
+}
+
+
+
+
+
+
+// FOR WHILE LOOP
+// for (a; b; c), where a is the initialization statement, b is the condition statement, and c is the final expression
+
+const myArray = [];
+for (let i = 2; i < 25; i += 5){
+    myArray.push(i);
+}
+const ourArray = [];
+
+
+
+
+
+
+
+
+// DO WHILE LOOP
+// It will first do one pass of the code inside the loop no matter what, and then continue to run the loop while the specified condition evaluates to true.
+
+const ourArray = [];
+let i = 5;
+do {
+  ourArray.push(i);
+  i++;
+} while (i < 5);
