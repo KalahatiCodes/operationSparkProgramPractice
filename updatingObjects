@@ -1,0 +1,9 @@
+// Object Syntax
+var myObject = {
+  name: 'Lee',
+  age: 'mystery'
+  height: 180
+}
+myObject.faveColor = 'blue'
+var newFavNumber = 13
+myObject.favNumber[newFavNumber]
